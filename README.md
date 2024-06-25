@@ -1,6 +1,6 @@
 # fabric-ops
 
-pyfabric es una librería de Python que automatiza procesos y trabaja con recursos de Microsoft Fabric.
+fabric-ops es una librería de Python que automatiza procesos y trabaja con recursos de Microsoft Fabric.
 
 ## Instalación
 
@@ -17,9 +17,9 @@ pip install fabric-ops
 Para utilizar esta librería, es necesario conceder permisos de crear una aplicación de Entra ID. Agregar los permisos de AAPI con consentimiento de administrador para :
 
 - Microsoft Graph
-  - Mail.Send (Aplicación): Send mail as any user
+  - Mail.Send (Aplicación): Send mail as any user - Permisos de administrador
 - Power BI Service
-  - Tenant.Read.All (Delegada): View all content in tenant
+  - Tenant.Read.All (Delegada): View all content in tenant - Sin permisos de administrador
 
 Después de configurar la aplicación asignale un rol de colaborador a la suscripciñon de Azure que contiene la capacidad de Microsoft Fabric que quieres administrar el rol Colaborador es opcional en caso de que tengas roles personalizados. Pero deben tener permisos similares a la colaboración para administrar recursos.
 
@@ -81,7 +81,7 @@ English
 
 # fabric-ops
 
-pyfabric is a Python library that automates processes and works with Microsoft Fabric resources.
+fabric-ops is a Python library that automates processes and works with Microsoft Fabric resources.
 
 ## Installation
 
@@ -96,7 +96,7 @@ pip install fabric-ops
 To use this library, you need to grant permissions to create an Entra ID application. Add the following API permissions with admin consent:
 
 - Microsoft Graph
-  - Mail.Send (Application): Send mail as any user
+  - Mail.Send (Application): Send mail as any user - Admin permission
 - Power BI Service
   - Tenant.Read.All (Delegated): View all content in tenant
 

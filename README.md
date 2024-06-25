@@ -14,7 +14,7 @@ pip install fabric-ops
 
 ### Configura tu aplicación de Microsoft Entra ID
 
-Para utilizar esta librería, es necesario conceder permisos de crear una aplicación de Entra ID. Agregar los permisos de AAPI con consentimiento de administrador para :
+Para utilizar esta librería, es necesario crear una aplicación de Entra ID. y posteriormente, agregar los permisos de API con consentimiento de administrador para :
 
 - Microsoft Graph
   - Mail.Send (Aplicación): Send mail as any user - Permisos de administrador
